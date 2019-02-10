@@ -21,6 +21,8 @@ Open up the most recent version (e.g. `app-2.5.1`) then open
 For versions after and including `3.0.0` the same code must be added to the following file
 `resources\app.asar.unpacked\src\static\ssb-interop.js`
 
+e.g. `code /Applications/Slack.app/Contents/resources/app.asar.unpacked/src/static/ssb-interop.js`
+
 At the very bottom, add
 
 ```js
