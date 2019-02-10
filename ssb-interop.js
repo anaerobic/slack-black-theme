@@ -1,4 +1,3 @@
-
 // First make sure the wrapper app is loaded
 document.addEventListener("DOMContentLoaded", function() {
 
@@ -13,18 +12,27 @@ document.addEventListener("DOMContentLoaded", function() {
   :root {
      /* Modify these to change your theme colors: */
      primary: #09F !important;
-     text: #CCC !important;
+     text: rgb(202,203,203) !important;
      background: #080808 !important;
      background-elevated: #222 !important;
   }
   .c-scrollbar__hider {
-    background-color: #080808 !important;
+    background-color: var(--background) !important;
   }
   .c-message--light .c-message__sender .c-message__sender_link {
-    color: #CCC !important;
+    color: var(--text) !important;
+  }
+  .c-message--hover {
+    background-color: #282C34 !important;
   }
   .c-message__body {
-    color: #CCC !important;
+    color: var(--text) !important;
+  }
+  .p-message_pane__foreword__description {
+    color: var(--text) !important;
+  }
+  .c-unified_member__display-name--large {
+    color: var(--text) !important;
   }
   `
 
