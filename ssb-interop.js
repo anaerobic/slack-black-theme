@@ -1,4 +1,3 @@
-
 // First make sure the wrapper app is loaded
 document.addEventListener("DOMContentLoaded", function() {
 
@@ -13,11 +12,15 @@ document.addEventListener("DOMContentLoaded", function() {
   :root {
      /* Modify these to change your theme colors: */
      primary: #09F !important;
-     text: rgb(202,203,203) !important;
+     text: #787878 !important;
      background: #080808 !important;
      background-elevated: #222 !important;
      background-hover: #282C34 !important;
      background-highlight: #616061 !important;
+     background-light: #616061 !important;
+  }
+  .c-mrkdwn__broadcast--mention {
+    background-color: var(--background-highlight) !important;
   }
   .c-message--hover {
     background-color: var(--background-hover) !important;
@@ -44,6 +47,13 @@ document.addEventListener("DOMContentLoaded", function() {
     color: var(--text) !important;
   }
   .p-message_pane__foreword__description {
+    color: var(--text) !important;
+  }
+  .tab_complete_ui {
+    background: #000 !important;
+    color: var(--text) !important;
+  }
+  .c-team__display-name, .c-unified_member__display-name, .c-usergroup__handle {
     color: var(--text) !important;
   }
   `
