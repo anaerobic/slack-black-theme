@@ -19,6 +19,16 @@ document.addEventListener("DOMContentLoaded", function() {
      background-highlight: #616061 !important;
      background-light: #616061 !important;
   }
+  
+  .c-channel_name__text {
+    color: var(--text) !important;
+  }
+  .c-menu {
+    background-color: var(--background-hover) !important;
+  }
+  .c-menu_item__button {
+    color: var(--text) !important;
+  }
   .c-mrkdwn__broadcast--mention {
     background-color: var(--background-highlight) !important;
   }
@@ -40,20 +50,31 @@ document.addEventListener("DOMContentLoaded", function() {
   .c-message__editor__input--legacy {
     background-color: var(--background-hover) !important;
   }
+  .c-message_kit__text {
+    color: var(--text) !important;
+  }
   .c-scrollbar__hider {
     background-color: var(--background) !important;
   }
+  .c-team__display-name, .c-unified_member__display-name, .c-usergroup__handle {
+    color: var(--text) !important;
+  }
   .c-unified_member__display-name--large {
+    color: var(--text) !important;
+  }
+
+  .p-flexpane_header {
+    background-color: var(--background-highlight) !important;
+  }
+  .p-flexpane_header__children {
     color: var(--text) !important;
   }
   .p-message_pane__foreword__description {
     color: var(--text) !important;
   }
+
   .tab_complete_ui {
     background: #000 !important;
-    color: var(--text) !important;
-  }
-  .c-team__display-name, .c-unified_member__display-name, .c-usergroup__handle {
     color: var(--text) !important;
   }
   `
